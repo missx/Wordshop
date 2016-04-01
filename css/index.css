@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------------INDEX---------------------------------*/
+
+
+body{
+	font-family: 'Muli', sans-serif;
+}
+
+#header
+{
+	height:9em;
+	background-color:#ffffff;
+	right:0px;
+	left:0px;
+	//z-index:1; y el fixed estaba tmb que saque
+}
+
+#narrowNav{
+    padding: 0px 200px;
+}
+
+#imgLogo
+{
+	padding: 15px 10px;
+	float:left;
+}
+
+nav
+{
+	padding: 50px 2px 30px 2px;
+	float:right;
+}
+
+ul
+{
+	
+	list-style-type:none;
+	width:auto;
+}
+
+nav ul li
+{
+	float:left;
+	width:auto;
+	padding:2px;
+}
+
+.secciones
+{	
+	z-index:2;
+}
+
+#secDescrip{
+    height: 400px;
+    background-color:#60BA99;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#secServicios
+{
+	padding: 50px 0px;
+	width:auto;
+	background-color:#ffffff;
+	height: auto;
+}
+
+#secFaq
+{
+	padding: 50px 0px;
+	height: auto;
+	width:auto;
+	background-color:#60BA99;
+}
+
+#secQuienes
+{
+    padding: 50px 0px;
+	height: auto;
+	width:auto;
+	background-color:#ffffff;	
+}
+
+#secContacto
+{
+    padding: 50px 0px;
+	width:auto;
+	background-color:#60BA99;
+	height: auto;
+}
+
+#divDescripGral
+{
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    width: 60%;
+}
+
+
+
+#divSecQuienes
+{
+	margin:0px 100px;
+    width:auto; 
+    height: auto;
+}
+
+.bios
+{
+	margin:1em 2em;
+	padding:2em;
+	width:22.5em;
+	height:34em;
+    float:left;
+}
+
+/*#ximeBio{
+    right: 0px;
+    margin-left: 2em;
+}
+
+#marBio{
+    left: 0px;
+    margin-right: 2em;
+}*/
+
+#fotoAmbas{
+    margin:1em 2em;
+	width:22em;
+	height:34em;
+	float:left;
+    line-height: 34em;
+    text-align: center;
+}
+
+#imgFotoAmbas{ 
+    vertical-align: middle; 
+    border-radius: 20px;
+}
+
+#englishPageLnk {
+    position: absolute;
+    margin-top: 0.5em;
+    right: 6em;
+    z-index: 100;
+}
+
+#spanishPageLnk{ 
+    position: absolute;
+    margin-top: 0.5em;
+    right: 6em;
+    z-index: 100;
+}
+
+.panel-body
+{
+	height:300px;
+}
+
+.linkedinImg
+{
+	float:right;
+	margin-bottom:3px;
+	position:inherit;
+}
+
+.panel-default > .panel-heading {
+    background-color: #60BA99;
+    border-color: #ddd;
+    border-radius: 10px;
+}
+
+#artDescripGral
+{
+	width: 1037px;
+	margin:1em 2em;
+	background-color:#FFF;
+	border-radius:5px;
+}
+
+h2
+{
+	text-align:center;
+	padding:3px;
+	color:#60002C;
+}
+
+h3{
+	color:#ffffff;
+}
+
+.miniCont
+{
+	padding: 0px 30px;
+}
+
+.carouselSize
+{
+	margin:0px 50px;
+}
+
+/*----------------------------CONTACTO---------------------------------*/
+
+#divForm
+{
+	float:left;
+	width:50%;
+}
+
+.contactoClass{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+form
+{
+	margin-left:60px;
+	padding:0px 20px;
+}
+
+label{
+	font-size:16px;
+}
+
+#btnsForm
+{
+	right:1px;
+	float:right;
+}
+
+#datosContacto
+{
+	float:right;
+	width:40%;
+	padding-left:120px;
+	margin: 0px 40px;
+}
+
+.corrida
+{
+	float:right;
+	padding-right:20px;
+	margin-right:50px;
+	text-align:right;
+}
+
+.linea
+{
+	padding-top:5px;
+}
+
+#cadaUna
+{
+	padding-top:90px;
+}
+
+.contUna
+{
+	height: 140px;
+}
+
+ul li a img{
+	padding-top:10px;	
+}
+
+
+
+
+
+	
