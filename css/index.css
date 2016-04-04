@@ -49,7 +49,7 @@ nav ul li
 .secciones
 {	
 	z-index:2;
-    height: 42em;
+    height: 44em;
     padding-top: 9em;
 }
 
@@ -83,6 +83,7 @@ nav ul li
 {
 	width:auto;
 	background-color:#60BA99;
+    height: 46em;
 }
 
 #divDescripGral
@@ -247,6 +248,16 @@ a {
     margin: 0 auto;
 }
 
+footer {
+    height: 3em;
+}
+
+#copy {
+    text-align: right;
+    padding-right: 3em;
+    font-size: 0.9em;
+    margin-top: 3.5em;
+}
 
 
 	
