@@ -2,7 +2,9 @@
 /* CSS Document */
 
 /*-----------------------------INDEX---------------------------------*/
-
+* {
+    color: black !important;
+}
 
 body{
 	font-family: 'Muli', sans-serif;
@@ -10,34 +12,31 @@ body{
 
 #header
 {
-	height:9em;
+	height:8em;
 	background-color:#ffffff;
 	right:0px;
 	left:0px;
-	//z-index:1; y el fixed estaba tmb que saque
 }
 
-#narrowNav{
-    padding: 0px 200px;
+#navbar-contents {
+    padding: 0.5em 4em;
+    height: inherit;
 }
 
-#imgLogo
-{
-	padding: 15px 10px;
-	float:left;
+#logo-div {
+    position: relative;
+    display: inline-block;
 }
 
-nav
-{
-	padding: 50px 2px 30px 2px;
-	float:right;
-}
-
-ul
-{
-	
+ul {	
 	list-style-type:none;
 	width:auto;
+}
+
+#ul-elements {
+    bottom: 0px;
+    position: absolute;
+    right: 0;
 }
 
 nav ul li
@@ -50,45 +49,40 @@ nav ul li
 .secciones
 {	
 	z-index:2;
+    height: 42em;
+    padding-top: 9em;
 }
 
 #secDescrip{
-    height: 400px;
     background-color:#60BA99;
     text-align: center;
     vertical-align: middle;
+    height: 37em;
+    padding-top: 8em;
 }
 
 #secServicios
 {
-	padding: 50px 0px;
 	width:auto;
 	background-color:#ffffff;
-	height: auto;
 }
 
 #secFaq
 {
-	padding: 50px 0px;
-	height: auto;
 	width:auto;
 	background-color:#60BA99;
 }
 
 #secQuienes
 {
-    padding: 50px 0px;
-	height: auto;
 	width:auto;
 	background-color:#ffffff;	
 }
 
 #secContacto
 {
-    padding: 50px 0px;
 	width:auto;
 	background-color:#60BA99;
-	height: auto;
 }
 
 #divDescripGral
@@ -110,29 +104,18 @@ nav ul li
 
 .bios
 {
-	margin:1em 2em;
-	padding:2em;
-	width:22.5em;
-	height:34em;
-    float:left;
+	padding:1em !important;
 }
 
-/*#ximeBio{
-    right: 0px;
-    margin-left: 2em;
+#xime-bio{
+    float: right;
 }
 
-#marBio{
-    left: 0px;
-    margin-right: 2em;
-}*/
+#mar-bio{
+    float: left;
+}
 
 #fotoAmbas{
-    margin:1em 2em;
-	width:22em;
-	height:34em;
-	float:left;
-    line-height: 34em;
     text-align: center;
 }
 
@@ -141,24 +124,18 @@ nav ul li
     border-radius: 20px;
 }
 
-#englishPageLnk {
+#english-page-link {
     position: absolute;
-    margin-top: 0.5em;
-    right: 6em;
-    z-index: 100;
+    right: 0px;
+    padding: 0em 1em;
 }
 
-#spanishPageLnk{ 
+#spanish-page-link { 
     position: absolute;
-    margin-top: 0.5em;
-    right: 6em;
-    z-index: 100;
+    right: 0px;
+    padding: 0em 1em;
 }
 
-.panel-body
-{
-	height:300px;
-}
 
 .linkedinImg
 {
@@ -167,11 +144,6 @@ nav ul li
 	position:inherit;
 }
 
-.panel-default > .panel-heading {
-    background-color: #60BA99;
-    border-color: #ddd;
-    border-radius: 10px;
-}
 
 #artDescripGral
 {
@@ -210,11 +182,6 @@ h3{
 	width:50%;
 }
 
-.contactoClass{
-	padding-bottom:10px;
-	padding-top:10px;
-}
-
 form
 {
 	margin-left:60px;
@@ -231,20 +198,25 @@ label{
 	float:right;
 }
 
-#datosContacto
-{
-	float:right;
-	width:40%;
-	padding-left:120px;
-	margin: 0px 40px;
+.move-text-right {
+	text-align: right;
+}
+
+#mail-ws {
+    display: inline-block;
+}
+
+#links-soc {
+    margin-bottom: 0.5em;
 }
 
 .corrida
 {
 	float:right;
-	padding-right:20px;
-	margin-right:50px;
+	margin-right:1.5em;
 	text-align:right;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .linea
@@ -252,21 +224,28 @@ label{
 	padding-top:5px;
 }
 
-#cadaUna
-{
-	padding-top:90px;
-}
-
-.contUna
-{
-	height: 140px;
-}
-
 ul li a img{
 	padding-top:10px;	
 }
 
+/** **/
 
+.slick-prev, .slick-next, .slick-prev:before, .slick-next:before {
+    color: crimson !important;
+}
+
+nav {
+   background-color: #fff; 
+}
+
+a {
+    color: black !important;
+}
+
+#map-mdeo {
+    display: block;
+    margin: 0 auto;
+}
 
 
 

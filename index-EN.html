@@ -18,29 +18,34 @@
 <body>
 	<div id="container" >
      <!-----SECCIÓN HEADER----->
-    	<header id="header" role="banner" >
-        	<div id="narrowNav">
-                <div id="logo">
-                    <a href="#logo"><img id="imgLogo" src="img/CrimsonNegro_Transparente.png" alt="Wordshop" rel="home"/></a>
-                </div>
-                <nav class="" role="navigation">
-                    <ul class="nav">
-                        <li><a href="#secServicios" title="Servicios" class="btn">SERVICES</a></li>                        
-                        <li><a href="#secFaq" title="Preguntas frecuentes" class="btn">FAQ</a></li>
-                        <li><a href="#secQuienes" title="Quiénes somos" class="btn" >TEAM</a></li>
-                        <li><a href="#secContacto" title="Contacto" class="btn" >CONTACT US</a></li>
+        <header id="header" class="navbar-fixed" role="banner" >
+            <nav id="navbar-contents" class="" role="navigation">
+                <div id="" class="nav-wrapper">
+                    <div id="logo-div">
+                        <a id="img-link" href="#logo">
+                            <img id="img-logo" src="img/CrimsonNegro_Transparente.png" alt="Wordshop" rel="home"/>
+                        </a>
+                    </div>                    
+                    <ul id="ul-elements" class="right">
+                        <li><a href="#secServicios" title="Servicios" >SERVICES</a></li>                        
+                        <li><a href="#secFaq" title="Preguntas frecuentes">FAQ</a></li>
+                        <li><a href="#secQuienes" title="Quiénes somos"  >TEAM</a></li>
+                        <li><a href="#secContacto" title="Contacto">CONTACT US</a></li>
                     </ul>
-                </nav>
-                <a  id="spanishPageLnk" href="index-ES.html"><img height="20" width="24" alt="Spanish page" title="Spanish page" src="img/Spain.png"/></a>
-            </div>
+                    <a  id="spanish-page-link" href="index-ES.html">
+                        <img height="20" width="24" alt="Spanish page" title="Spanish page" src="img/Spain.png"/>
+                    </a>
+                </div>
+            </nav>
         </header>
-        <section id="secDescrip"> 
+    	<!-----DESCRIPTION SECTION----->
+        <section id="secDescrip" class="secciones "> 
             <article id="divDescripGral">
                 	Somos un equipo de traductoras de inglés y español egresadas de la carrera de Traductorado Público dictada por la UdelaR (Montevideo, Uruguay). Nos apasionan los idiomas y nuestra misión es proporcionar servicios profesionales y de calidad que acerquen culturas y favorezcan una comunicación clara y fluida.
             </article>
         </section>
-        <!-----SECCIÓN SERVICIOS----->
-        <section id="secServicios" class="secciones container">
+        <!-----SERVICES SECTION----->
+        <section id="secServicios" class="secciones ">
         	<!--<h2>Servicios</h2>-->
             <div class="uneven carouselSize">
             	<div class="miniCont">
@@ -65,8 +70,8 @@
                 </div>
             </div>
         </section>
-        <!-----SECCIÓN FAQ----->
-        <section id="secFaq" class="secciones container">
+        <!-----FAQ SECTION----->
+        <section id="secFaq" class="secciones ">
         	<!--<h2>Preguntas Frecuentes</h2>-->
             <div class="uneven carouselSize">
             	<div class="miniCont">
@@ -105,11 +110,11 @@ If you need an urgent translation, you can contact us to agree on a more conveni
                 </div>
             </div>
         </section>
-        <!-----SECCIÓN FAQ----->
-        <section id="secQuienes" class="secciones container" >
+        <!-----TEAM SECTION----->
+        <section id="secQuienes" class="secciones " >
         	<!--<h2>Quiénes Somos</h2>-->
         	<div id="divSecQuienes">            	
-        		<article id="marBio" class="bios panel panel-default">
+        		<article id="mar-bio" class="bios panel panel-default">
                		<div class="panel-heading">
                   		<h3>María Dabezies</h3>
                   	</div>
@@ -122,7 +127,7 @@ If you need an urgent translation, you can contact us to agree on a more conveni
                 <div id="fotoAmbas" >
                 	<img id="imgFotoAmbas" src="img/XimeMarSmall.jpg" alt="María y Ximena"/>
                 </div>
-           	 	<article id="ximeBio" class="bios panel panel-default">
+           	 	<article id="xime-bio" class="bios panel panel-default">
                 	<div class="panel-heading panel-color">
                     	<h3>Ximena Lasserre</h3>
                     </div>
@@ -132,9 +137,8 @@ If you need an urgent translation, you can contact us to agree on a more conveni
                     </article>
             </div>
         </section>
-        <!-----SECCIÓN CONTACTO----->
-        <section id="secContacto" class="secciones container">
-        	<h2>Contact us</h2>
+        <!-----CONTACT SECTION----->
+        <section id="secContacto" class="secciones ">
             <div class="contactoClass">
                 <div id="divForm">
                     <form action="MAILTO:wordshopuy@gmail.com" method="post" enctype="text/plain">
@@ -207,7 +211,7 @@ If you need an urgent translation, you can contact us to agree on a more conveni
                     </div>
                 </div>
                 <div id="divMapa">
-                    <img id="mapaMdeo" alt="Mapa Montevideo" src="https://maps.googleapis.com/maps/api/staticmap?center=-34.891271,%20-56.154473&zoom=12&size=400x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C-34.863370,%20-56.178946&markers=color:red%7Clabel:C%7C-34.892555,%20-56.102780"/>    
+                    <img id="mapaMdeo" alt="Mapa Montevideo" src="https://maps.googleapis.com/maps/api/staticmap?center=-34.883271,%20-56.150190&amp;zoom=12&amp;size=300x230&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C-34.863370,%20-56.178946&amp;markers=color:red%7Clabel:C%7C-34.892555,%20-56.102780"/>    
                 </div>
             </div>
         </section>

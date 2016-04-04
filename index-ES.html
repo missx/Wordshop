@@ -18,31 +18,34 @@
 <body>
 	<div id="container" >
      <!-----SECCIÓN HEADER----->
-    	<header id="header" role="banner" >
-        	<div id="narrowNav">
-                <div id="logo">
-                    <a href="#logo"><img id="imgLogo" src="img/CrimsonNegro_Transparente.png" alt="Wordshop" rel="home"/></a>
-                </div>
-                <nav class="" role="navigation">
-                    <ul class="nav">
-                        <li><a href="#secServicios" title="Servicios" class="btn">SERVICIOS</a></li>                        
-                        <li><a href="#secFaq" title="Preguntas frecuentes" class="btn">PREGUNTAS FRECUENTES</a></li>
-                        <li><a href="#secQuienes" title="Quiénes somos" class="btn" >EQUIPO</a></li>
-                        <li><a href="#secContacto" title="Contacto" class="btn" >CONTACTO</a></li>
+    	<header id="header" class="navbar-fixed" role="banner" >
+            <nav id="navbar-contents" class="" role="navigation">
+                <div id="" class="nav-wrapper">
+                    <div id="logo-div">
+                        <a id="img-link" href="#logo">
+                            <img id="img-logo" src="img/CrimsonNegro_Transparente.png" alt="Wordshop" rel="home"/>
+                        </a>
+                    </div>                    
+                    <ul id="ul-elements" class=" right">
+                        <li><a href="#secServicios" title="Servicios" >SERVICIOS</a></li>                        
+                        <li><a href="#secFaq" title="Preguntas frecuentes">PREGUNTAS FRECUENTES</a></li>
+                        <li><a href="#secQuienes" title="Quiénes somos"  >EQUIPO</a></li>
+                        <li><a href="#secContacto" title="Contacto">CONTACTO</a></li>
                     </ul>
-                </nav>
-                <a  id="englishPageLnk" href="index-EN.html">
-                    <img height="20" width="24" alt="Página en inglés" title="Página en inglés" src="img/United-Kingdom.png"/>
-                </a>
-            </div>
+                    <a  id="english-page-link" href="index-EN.html">
+                        <img height="20" width="24" alt="Página en inglés" title="Página en inglés" src="img/United-Kingdom.png"/>
+                    </a>
+                </div>
+            </nav>
         </header>
-        <section id="secDescrip"> 
+        <!-----SECCIÓN DESCRIPCION----->
+        <section id="secDescrip" class=" "> 
             <article id="divDescripGral">
                 	Somos un equipo de traductoras de inglés y español egresadas de la carrera de Traductorado Público dictada por la UdelaR (Montevideo, Uruguay). Nos apasionan los idiomas y nuestra misión es proporcionar servicios profesionales y de calidad que acerquen culturas y favorezcan una comunicación clara y fluida.
             </article>
         </section>
         <!-----SECCIÓN SERVICIOS----->
-        <section id="secServicios" class="secciones container">
+        <section id="secServicios" class="secciones ">
         	<!--<h2>Servicios</h2>-->
             <div class="uneven carouselSize">
             	<div class="miniCont">
@@ -110,112 +113,130 @@ En caso de necesitar una traducción urgente, puede contactarse con nosotros par
                 </div>
             </div>
         </section>
-        <!-----SECCIÓN FAQ----->
+        <!-----SECCIÓN QUIENES SOMOS----->
         <section id="secQuienes" class="secciones " >
         	<!--<h2>Quiénes Somos</h2>-->
-        	<div id="divSecQuienes">            	
-        		<article id="marBio" class="bios ">
-               		<div class="">
-                  		<h3>María Dabezies</h3>
+        	<div id="divSecQuienes" class="row">            	
+        		<div id="mar-bio" class="bios col s4 card">
+               		<div class="card-title">
+                  		<h4>María Dabezies</h4>
                   	</div>
-                  	<div class="">María siempre quiso ser química forense, por lo que en 2011 se recibió de Traductora Pública en idioma inglés en la UdelaR. Actualmente trabaja como traductora y docente de inglés y comenzó a estudiar la Licenciatura en Geología. Sus hobbies incluyen mirar series británicas con 50 años en el aire, leer sobre el número 42, gritarle a 11 hombres que patean una pelota y memorizar todas las canciones de Cantando Bajo La Lluvia.		
+                  	<div class="card-content">María siempre quiso ser química forense, por lo que en 2011 se recibió de Traductora Pública en idioma inglés en la UdelaR. Actualmente trabaja como traductora y docente de inglés. Sus hobbies incluyen mirar series británicas con 50 años en el aire, leer sobre el número 42, gritarle a 11 hombres que patean una pelota y memorizar todas las canciones de Cantando Bajo La Lluvia.		
                     </div>
                   	<a href="https://www.linkedin.com/in/mdabezies">
 				        <img class="linkedinImg" src="img/24x24linkedin.png"/>
                     </a>		
-                </article>
-                <div id="fotoAmbas" >
+                </div>
+                <div id="fotoAmbas" class="col s4">
                 	<img id="imgFotoAmbas" src="img/XimeMarSmall.jpg" alt="María y Ximena"/>
                 </div>
-           	 	<article id="ximeBio" class="bios panel panel-default">
-                	<div class="panel-heading panel-color">
-                    	<h3>Ximena Lasserre</h3>
+           	 	<div id="xime-bio" class="bios col s4 card">
+                	<div class="card-title">
+                    	<h4>Ximena Lasserre</h4>
                     </div>
-                    <div class="">Ximena es una Traductora Pública en idioma inglés que egresó de la UdelaR en Montevideo, Uruguay en el año 2012. Actualmente se encuentra cursando la carrera Analista Programador en la Universidad ORT y trabaja como desarrolladora web. En su tiempo libre se la puede encontrar disfrutando del cine, andando en bicicleta o siguiendo los pasos de la Sporty Spice. (?)			
+                    <div class="card-content">Ximena es una Traductora Pública en idioma inglés que egresó de la UdelaR en Montevideo, Uruguay en el año 2012. También es egresada de la carrera Analista Programador en la Universidad ORT y trabaja como desarrolladora web. En su tiempo libre se la puede encontrar disfrutando del cine, escuchando música, andando en bicicleta o siguiendo los pasos de la Sporty Spice. (?)			
                     </div>
                     <a href="https://www.linkedin.com/in/ximenalasserre"><img class="linkedinImg" src="img/24x24linkedin.png"/></a>
-                    </article>
+                </div>
             </div>
         </section>
         <!-----SECCIÓN CONTACTO----->
         <section id="secContacto" class="secciones ">
-        	<h2>Cont&aacute;ctanos</h2>
-            <div class="contactoClass">
-                <div id="divForm">
+            <div class="row">
+                <div id="divForm" class="col s6">
                     <form action="MAILTO:wordshopuy@gmail.com" method="post" enctype="text/plain">
-                        <fieldset>
-                            <div class="">
-                                <label for="nombre" class="labelsForm">* Nombre:</label>
-                                <input type="text" id="nombre" class="" title="Por favor ingrese su nombre" required/>
-                            </div>
-                            <div class="">
-                                <label for="email" class="labelsForm">* Email:   </label>
-                                <input type="email" id="email" class="" title="Por favor ingrese su email" required/>
-                            </div>
-                            <div class="">
-                                <label for="telefono" class="labelsForm">Teléfono:</label>
-                                <input type="tel" id="telefono" class=""/>
-                            </div>
-                            <div class="">
-                                <label for="consulta" class="labelsForm">* Consulta:</label>
-                                <textarea id="consulta" cols="70" rows="7" placeholder="Ingrese su consulta aquí" class="" title="Por favor ingrese su consulta" required></textarea>
-                            </div>
-                            <div class="">
+                        <div class="input-field">
+                            <label for="nombre" class="labelsForm">* Nombre:</label>
+                            <input type="text" id="nombre" class="validate" title="Por favor ingrese su nombre" required/>
+                        </div>
+                        <div class="input-field">
+                            <label for="email" class="labelsForm">* Email:   </label>
+                            <input type="email" id="email" class="validate" title="Por favor ingrese su email" required/>
+                        </div>
+                        <div class="input-field">
+                            <label for="telefono" class="labelsForm">Teléfono:</label>
+                            <input type="tel" id="telefono" class=""/>
+                        </div>
+                        <div class="input-field">
+                            <label for="consulta" class="labelsForm">* Consulta:</label>
+                            <textarea id="consulta" cols="70" rows="7" class="materialize-textarea validate" title="Por favor ingrese su consulta" required></textarea>
+                        </div>
+                        <div class="file-field input-field">
+                            <div class="btn">
+                                <span>Archivo</span>
                                 <input type="file" id="archivo"/>
                             </div>
-                            <div id="btnsForm" class="">
-                                <input type="reset" value="Borrar" class=""/>
-                                <input type="submit" value="Enviar" class=""/>
+                            <div class="file-path-wrapper">
+                                <input class="file-path validate" type="text">
                             </div>
-                        </fieldset>
+                        </div>                        
+                        <div id="btnsForm" class="">
+                            <input  class="btn waves-effect waves-light" type="reset" value="Borrar" class=""/>
+                            <input  class="btn waves-effect waves-light" type="submit" value="Enviar" class=""/>
+                        </div>
                     </form>
                 </div>
-                <div id="datosContacto">
-                    <div id="divMail" class="linea">
-                        <label>Más información:</label>
-                        <div class="corrida" id="mailWS">                 	info@wordshop.com.uy</div>
-                        <div>
+                <div id="datos-contacto" class="col s6">
+                    <div id="divMail" class="linea row">
+                        <div class="col s3">
+                            <label>Más información:</label>
+                        </div>                        
+                        <div  id="mail-ws" class="col s4 move-text-right">info@wordshop.com.uy</div>
                     </div>
-                    <div id="linksSoc" class="corrida linea">
-                        <a id="linkFb" href="www.facebook.com/WordshopUY"><img src="img/24x24facebook.png"/>	
-                        </a>
-                        <a id="linkTwt" href="https://twitter.com/WordshopUY"><img src="img/24x24twitter.png"/>	
-                        </a>
+                    <div id="links-soc" class="linea row">
+                        <div class="col s4 offset-s3 move-text-right">
+                            <a id="linkFb" href="www.facebook.com/WordshopUY">
+                                <img src="img/24x24facebook.png"/>	
+                            </a>
+                            <a id="linkTwt" href="https://twitter.com/WordshopUY">
+                                <img src="img/24x24twitter.png"/>	
+                            </a>
+                        </div>
                     </div>
-                    <div id="cadaUna">
-                        <div class="contUna" >
+                    <div id="info-each" class="row">
+                        <div class="col s2" >
                             <label>María:</label>
+                        </div>
+                        <div class="col s4" >
                             <ul class="corrida">
                                 <li>mar@wordshop.com.uy</li>
                                 <li>(+598) 99-383-883</li>
                                 <li>Rimac 1576</li>  
                                 <li>
-                                    <a href="https://www.linkedin.com/in/mdabezies
-    ">
-                    <img src="img/24x24linkedin.png"/>
-                                </a>
+                                    <a href="https://www.linkedin.com/in/mdabezies">
+                                        <img src="img/24x24linkedin.png"/>
+                                    </a>
                                 </li>   
                             </ul>
                         </div>
-                        <div class="contUna">
+                        <div class="col s2">
                             <label>Ximena:</label>
+                        </div>
+                        <div class="col s4" >
                             <ul class="corrida">
                                 <li>xime@wordshop.com.uy</li>
                                 <li>(+598) 99-387-002</li>
                                 <li>San Martín 3384/402</li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/ximenalasserre"><img src="img/24x24linkedin.png"/>
+                                    <a href="https://www.linkedin.com/in/ximenalasserre">
+                                        <img src="img/24x24linkedin.png"/>
                                     </a>
                                 </li>
                             </ul>
                         </div>                                     
                     </div>
-                </div>
-                <div id="divMapa">
-                    <img id="mapaMdeo" alt="Mapa Montevideo" src="https://maps.googleapis.com/maps/api/staticmap?center=-34.891271,%20-56.154473&zoom=12&size=400x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C-34.863370,%20-56.178946&markers=color:red%7Clabel:C%7C-34.892555,%20-56.102780"/>    
-                </div>    
+                    <div class="row">
+                        <div class="col s3">Dónde estamos:</div>
+                        <div id="divMapa" class="col s9">
+                            <img id="map-mdeo" alt="Mapa Montevideo" src="https://maps.googleapis.com/maps/api/staticmap?center=-34.883271,%20-56.150190&amp;zoom=12&amp;size=300x230&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:X%7C-34.863370,%20-56.178946&amp;markers=color:red%7Clabel:M%7C-34.892555,%20-56.102780"/>    
+                        </div> 
+                    </div>
+                </div>                 
             </div>
         </section>
+        <footer>
+        
+        </footer>
     </div>
 </body>
 </html>
