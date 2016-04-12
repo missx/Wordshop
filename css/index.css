@@ -79,11 +79,11 @@ nav ul li
 	background-color:#ffffff;	
 }
 
-#secContacto
+#sec-contacto
 {
 	width:auto;
 	background-color:#60BA99;
-    height: 46em;
+    height: 48em;
 }
 
 #divDescripGral
@@ -246,6 +246,7 @@ a {
 #map-mdeo {
     display: block;
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 footer {
@@ -257,6 +258,10 @@ footer {
     padding-right: 3em;
     font-size: 0.9em;
     margin-top: 3.5em;
+}
+
+#titulo-contact {
+    margin: 0 2.5em;
 }
 
 
