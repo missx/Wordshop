@@ -4,10 +4,16 @@
 /*-----------------------------INDEX---------------------------------*/
 * {
     color: black !important;
+    font-size: 17px;
 }
 
 body{
-	font-family: 'Muli', sans-serif;
+	font-family: 'Dosis', sans-serif;
+    
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 #header
@@ -33,6 +39,10 @@ ul {
 	width:auto;
 }
 
+nav ul a {
+    font-size: 1.2rem;
+}
+
 #ul-elements {
     bottom: 0px;
     position: absolute;
@@ -49,31 +59,32 @@ nav ul li
 .secciones
 {	
 	z-index:2;
-    height: 44em;
+    height: 39.5em;
     padding-top: 9em;
 }
 
-#secDescrip{
+#sec-descripcion{
     background-color:#60BA99;
     text-align: center;
     vertical-align: middle;
     height: 37em;
-    padding-top: 8em;
+    padding-top: 4em;
+    
 }
 
-#secServicios
+#sec-servicios
 {
 	width:auto;
 	background-color:#ffffff;
 }
 
-#secFaq
+#sec-faq
 {
 	width:auto;
 	background-color:#60BA99;
 }
 
-#secQuienes
+#sec-quienes
 {
 	width:auto;
 	background-color:#ffffff;	
@@ -83,18 +94,18 @@ nav ul li
 {
 	width:auto;
 	background-color:#60BA99;
-    height: 48em;
+    height: 47em;
 }
 
-#divDescripGral
+#div-descripcion-gral
 {
 	margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
-    width: 60%;
+    width: 70%;
+    font-size: 40px !important;
+    font-family: "Lora", serif;
+    font-style: italic;
 }
-
-
 
 #divSecQuienes
 {
@@ -173,6 +184,10 @@ h3{
 .carouselSize
 {
 	margin:0px 50px;
+}
+
+.carousel-cards-body {
+    padding: 0.5em;
 }
 
 /*----------------------------CONTACTO---------------------------------*/
