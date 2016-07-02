@@ -114,19 +114,6 @@ nav ul li
     height: auto;
 }
 
-.bios
-{
-	padding:1em !important;
-}
-
-#xime-bio{
-    float: right;
-}
-
-#mar-bio{
-    float: left;
-}
-
 #fotoAmbas{
     text-align: center;
 }
@@ -190,7 +177,41 @@ h3{
     padding: 0.5em;
 }
 
-/*----------------------------CONTACTO---------------------------------*/
+/*---------------------------- SERCVICES ---------------------------------*/
+
+.service-box {
+    
+}
+
+.service-box-content {
+    font-size: 0.90rem;
+}
+
+.service-box-title {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+/*---------------------------- SERCVICES ---------------------------------*/
+
+.bio-title {
+    padding-left: 20px;
+}
+
+.bios
+{
+	padding:1em !important;
+}
+
+#xime-bio{
+    float: right;
+}
+
+#mar-bio{
+    float: left;
+}
+
+/*---------------------------- CONTACT ---------------------------------*/
 
 #divForm
 {
