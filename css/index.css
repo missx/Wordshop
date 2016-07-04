@@ -59,50 +59,43 @@ nav ul li
 .secciones
 {	
 	z-index:2;
-    height: 39.5em;
-    padding-top: 9em;
+    padding-top: 10rem;
 }
 
 #sec-descripcion{
     background-color:#60BA99;
     text-align: center;
     vertical-align: middle;
-    height: 37em;
-    padding-top: 4em;
-    
+    height: 43rem;
+    padding-top: 3rem;    
 }
 
 #sec-servicios
 {
 	width:auto;
+    height: 39.5rem;
 	background-color:#ffffff;
 }
 
 #sec-faq
 {
 	width:auto;
+    height: 37rem;
 	background-color:#60BA99;
-}
-
-#sec-quienes
-{
-	width:auto;
-	background-color:#ffffff;	
 }
 
 #sec-contacto
 {
 	width:auto;
-	background-color:#60BA99;
+	background-color:#ffffff;
     height: 47em;
 }
 
 #div-descripcion-gral
 {
-	margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    font-size: 40px !important;
+    margin: 1rem auto 2rem auto;
+    width: 80%;
+    font-size: 2rem !important;
     font-family: "Lora", serif;
     font-style: italic;
 }
@@ -116,6 +109,7 @@ nav ul li
 
 #fotoAmbas{
     text-align: center;
+    margin-top: 1rem;
 }
 
 #imgFotoAmbas{ 
@@ -136,8 +130,7 @@ nav ul li
 }
 
 
-.linkedinImg
-{
+.linkedinImg {
 	float:right;
 	margin-bottom:3px;
 	position:inherit;
@@ -163,11 +156,6 @@ h3{
 	color:#ffffff;
 }
 
-.miniCont
-{
-	padding: 0px 30px;
-}
-
 .carouselSize
 {
 	margin:0px 50px;
@@ -179,10 +167,6 @@ h3{
 
 /*---------------------------- SERCVICES ---------------------------------*/
 
-.service-box {
-    
-}
-
 .service-box-content {
     font-size: 0.90rem;
 }
@@ -192,23 +176,45 @@ h3{
     display: inline-block;
 }
 
-/*---------------------------- SERCVICES ---------------------------------*/
+/*---------------------------- BIOS ---------------------------------*/
 
 .bio-title {
     padding-left: 20px;
 }
 
-.bios
-{
+.bios {
 	padding:1em !important;
+    border-radius: 20px;
+    height: 22rem;
 }
 
-#xime-bio{
+#xime-bio {
     float: right;
 }
 
-#mar-bio{
+#mar-bio {
     float: left;
+}
+
+/*---------------------------- FAQ ---------------------------------*/
+.one-faq {
+	padding: 0px 30px;    
+}
+
+.one-faq-content {
+    font-size: 1.1rem;
+}
+
+.one-faq-title {
+    padding: 0.5rem;
+}
+
+.request-fee-link {
+    color: crimson !important;
+}
+
+.request-fee-link:hover {
+    text-decoration: underline;
 }
 
 /*---------------------------- CONTACT ---------------------------------*/
@@ -279,6 +285,10 @@ a {
     color: black !important;
 }
 
+.btn {
+    background-color: #60BA99;
+}
+
 #map-mdeo {
     display: block;
     margin: 0 auto;
@@ -286,7 +296,8 @@ a {
 }
 
 footer {
-    height: 3em;
+    height: 6rem;
+    background-color: #60BA99;
 }
 
 #copy {
