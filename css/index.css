@@ -249,9 +249,7 @@ label{
     display: inline-block;
 }
 
-#links-soc {
-    margin-bottom: 0.5em;
-}
+
 
 .corrida
 {
@@ -300,12 +298,12 @@ footer {
     background-color: #60BA99;
 }
 
-#copy {
-    text-align: right;
-    padding-right: 3em;
-    font-size: 0.9em;
-    margin-top: 3.5em;
+#links-soc {
+    text-align: center;
+    margin: auto;
+    padding-top: 1.3rem;
 }
+
 
 #titulo-contact {
     margin: 0 2.5em;
