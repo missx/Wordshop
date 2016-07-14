@@ -91,6 +91,11 @@ nav ul li
     height: 47em;
 }
 
+#sec-where {
+    width:auto;
+    background-color:#60BA99;
+}
+
 #div-descripcion-gral
 {
     margin: 1rem auto 2rem auto;
@@ -221,7 +226,7 @@ h3{
 
 #divForm
 {
-	float:left;
+	margin: auto;
 	width:50%;
 }
 
@@ -248,8 +253,6 @@ label{
 #mail-ws {
     display: inline-block;
 }
-
-
 
 .corrida
 {
@@ -295,7 +298,7 @@ a {
 
 footer {
     height: 6rem;
-    background-color: #60BA99;
+    background-color: #ffffff;
 }
 
 #links-soc {

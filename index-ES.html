@@ -147,80 +147,81 @@ En caso de necesitar una traducción urgente, puede contactarse con nosotros par
         </section>
         <!-----SECCIÓN CONTACTO----->
         <section id="sec-contacto" class="secciones ">
-            <div class="row">
-                <div id="divForm" class="col s6">
-                    <h4 id="titulo-contact" >Contáctanos</h4>
-                    <form action="MAILTO:wordshopuy@gmail.com" method="post" enctype="text/plain">
-                        <div class="input-field">
-                            <label for="nombre" class="labelsForm bold-text">* Nombre:</label>
-                            <input type="text" id="nombre" class="validate" title="Por favor ingrese su nombre" required/>
-                        </div>
-                        <div class="input-field">
-                            <label for="email" class="labelsForm bold-text">* Email:   </label>
-                            <input type="email" id="email" class="validate" title="Por favor ingrese su email" required/>
-                        </div>
-                        <div class="input-field">
-                            <label for="telefono" class="labelsForm bold-text">Teléfono:</label>
-                            <input type="tel" id="telefono" class=""/>
-                        </div>
-                        <div class="input-field">
-                            <label for="consulta" class="labelsForm bold-text">* Consulta:</label>
-                            <textarea id="consulta" maxlength="350" rows="3" class="materialize-textarea validate" title="Por favor ingrese su consulta" required></textarea>
-                        </div>
-                        <div class="file-field input-field">
-                            <div class="btn">
-                                <span>Archivo</span>
-                                <input type="file" id="archivo"/>
-                            </div>
-                            <div class="file-path-wrapper">
-                                <input class="file-path validate" type="text">
-                            </div>
-                        </div>                        
-                        <div id="btnsForm" class="">
-                            <input  class="btn waves-effect waves-light" type="reset" value="Borrar" class=""/>
-                            <input  class="btn waves-effect waves-light" type="submit" value="Enviar" class=""/>
-                        </div>
-                    </form>
-                </div>
-                <div id="datos-contacto" class="col s6">
-                    <div id="divMail" class="linea row">
-                        <div class="col s3">
-                            <b>Más información:</b>
-                        </div>                        
-                        <div  id="mail-ws" class="col s4 move-text-right">info@wordshop.com.uy</div>
+            <div id="divForm">
+                <h4 id="titulo-contact" >Contáctanos</h4>
+                <form action="MAILTO:wordshopuy@gmail.com" method="post" enctype="text/plain">
+                    <div class="input-field">
+                        <label for="nombre" class="labelsForm bold-text">* Nombre:</label>
+                        <input type="text" id="nombre" class="validate" title="Por favor ingrese su nombre" required/>
                     </div>
-                    <div id="info-each" class="row">
-                        <div class="col s2" >
-                            <b>María:</b>
-                        </div>
-                        <div class="col s4" >
-                            <ul class="corrida">
-                                <li>mar@wordshop.com.uy</li>
-                                <li>(+598) 99-383-883</li>
-                                <li>Rimac 1576</li>    
-                            </ul>
-                        </div>
-                        <div class="col s2">
-                            <b>Ximena:</b>
-                        </div>
-                        <div class="col s4" >
-                            <ul class="corrida">
-                                <li>xime@wordshop.com.uy</li>
-                                <li>(+598) 99-387-002</li>
-                                <li>San Martín 3384/402</li>
-                            </ul>
-                        </div>                                     
+                    <div class="input-field">
+                        <label for="email" class="labelsForm bold-text">* Email:   </label>
+                        <input type="email" id="email" class="validate" title="Por favor ingrese su email" required/>
                     </div>
-                    <div class="row">
-                        <div class="col s3">
-                            <b>Dónde estamos:</b>
-                        </div>
-                        <div id="divMapa" class="col s9">
-                            <img id="map-mdeo" alt="Mapa Montevideo" src="https://maps.googleapis.com/maps/api/staticmap?center=-34.883271,%20-56.150190&amp;zoom=12&amp;size=300x230&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:X%7C-34.863370,%20-56.178946&amp;markers=color:red%7Clabel:M%7C-34.892555,%20-56.102780"/>    
-                        </div> 
+                    <div class="input-field">
+                        <label for="telefono" class="labelsForm bold-text">Teléfono:</label>
+                        <input type="tel" id="telefono" class=""/>
                     </div>
-                </div>                 
+                    <div class="input-field">
+                        <label for="consulta" class="labelsForm bold-text">* Consulta:</label>
+                        <textarea id="consulta" maxlength="350" rows="3" class="materialize-textarea validate" title="Por favor ingrese su consulta" required></textarea>
+                    </div>
+                    <div class="file-field input-field">
+                        <div class="btn">
+                            <span>Archivo</span>
+                            <input type="file" id="archivo"/>
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                    </div>                        
+                    <div id="btnsForm" class="">
+                        <input  class="btn waves-effect waves-light" type="reset" value="Borrar" class=""/>
+                        <input  class="btn waves-effect waves-light" type="submit" value="Enviar" class=""/>
+                    </div>
+                </form>
             </div>
+        </section>
+        <!-----WHERE SECTION----->
+        <section id="sec-where" class="secciones ">
+            <div id="datos-contacto" class="col s6">
+                <div id="divMail" class="linea row">
+                    <div class="col s3">
+                        <b>Más información:</b>
+                    </div>                        
+                    <div  id="mail-ws" class="col s4 move-text-right">info@wordshop.com.uy</div>
+                </div>
+                <div id="info-each" class="row">
+                    <div class="col s2" >
+                        <b>María:</b>
+                    </div>
+                    <div class="col s4" >
+                        <ul class="corrida">
+                            <li>mar@wordshop.com.uy</li>
+                            <li>(+598) 99-383-883</li>
+                            <li>Rimac 1576</li>    
+                        </ul>
+                    </div>
+                    <div class="col s2">
+                        <b>Ximena:</b>
+                    </div>
+                    <div class="col s4" >
+                        <ul class="corrida">
+                            <li>xime@wordshop.com.uy</li>
+                            <li>(+598) 99-387-002</li>
+                            <li>San Martín 3384/402</li>
+                        </ul>
+                    </div>                                     
+                </div>
+                <div class="row">
+                    <div class="col s3">
+                        <b>Dónde estamos:</b>
+                    </div>
+                    <div id="divMapa" class="col s9">
+                        <img id="map-mdeo" alt="Mapa Montevideo" src="https://maps.googleapis.com/maps/api/staticmap?center=-34.883271,%20-56.150190&amp;zoom=12&amp;size=300x230&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:X%7C-34.863370,%20-56.178946&amp;markers=color:red%7Clabel:M%7C-34.892555,%20-56.102780"/>    
+                    </div> 
+                </div>
+            </div>  
         </section>
         <footer>
             <div id="links-soc" class="linea">
