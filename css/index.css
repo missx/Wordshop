@@ -257,7 +257,6 @@ label{
 .corrida
 {
 	float:right;
-	margin-right:1.5em;
 	text-align:right;
     margin-top: 0;
     margin-bottom: 0;
@@ -272,7 +271,17 @@ ul li a img{
 	padding-top:10px;	
 }
 
-/** **/
+/** SECTION WHERE **/
+
+#sec-where {
+    padding-bottom: 2rem;
+}
+
+#emails {
+    padding-left: 5rem;
+}
+
+/** OTHER **/
 
 .slick-prev, .slick-next, .slick-prev:before, .slick-next:before {
     color: crimson !important;
